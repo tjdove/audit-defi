@@ -1,0 +1,21 @@
+{
+  "name": "@corposium-defi/sdk",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "echo 'Add tests here'"
+  },
+  "forceConsistentCasingInFileNames": true,
+  "dependencies": {
+    "@corposium-defi/common": "workspace:*",
+    "ethers": "^6.13.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@10.8.0"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@corposium-defi/contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "deploy": "forge script script/Deploy.s.sol"
+  },
+  "packageManager": "pnpm@10.8.0"
+}

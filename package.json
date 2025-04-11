@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "test": "echo 'Add tests here'"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test"
   },
-  "packageManager": "pnpm@10.8.0"
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "tsx": "^4.19.3"
+  }
 }

@@ -4,3 +4,11 @@ packages:
 
 ignoredBuiltDependencies:
   - sharp
+
+onlyBuiltDependencies:
+  - bufferutil
+  - core-js
+  - core-js-pure
+  - esbuild
+  - keccak
+  - utf-8-validate
