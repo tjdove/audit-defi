@@ -1,0 +1,9 @@
+dist/
+.next/
+out/
+cache/
+artifacts/
+coverage/
+.env
+node_modules
+.turbo

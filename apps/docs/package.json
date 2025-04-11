@@ -1,0 +1,16 @@
+{
+  "name": "@corposium-defi/docs",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "docusaurus start",
+    "build": "docusaurus build",
+    "test": "echo 'Add doc tests here'"
+  },
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0"
+  }
+}
