@@ -5,7 +5,9 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "docs:start": "cd apps/docs/Corposium && npm start",
+    "docs:build": "cd apps/docs/Corposium && npm run build"
   },
   "packageManager": "pnpm@10.8.0",
   "dependencies": {
