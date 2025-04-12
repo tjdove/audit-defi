@@ -12,5 +12,6 @@
     "paths": {
       "@corposium-defi/common": ["../common/src/index.ts"]
     }
+    ,"include": ["src/**/*"]
   }
 }
