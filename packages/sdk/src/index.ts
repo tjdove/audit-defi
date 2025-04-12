@@ -10,8 +10,8 @@ export class MyContractSDK {
 
   async setValue(value: number): Promise<void> {
     const signer = await this.contract.getSigner()
-    const tx = await this.contract.connect(signer).setValue(value)
-    await tx.wait()
+    // const tx = await this.contract.connect(signer).setValue(value)
+    // await tx.wait()
   }
 
   async getValue(): Promise<number> {
