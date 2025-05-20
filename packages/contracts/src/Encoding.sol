@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.20;
+pragma solidity 0.8.29;
 
 // For the cheatsheet, check out the docs: https://docs.soliditylang.org/en/v0.8.13/cheatsheet.html?highlight=encodewithsignature
 
@@ -7,6 +7,8 @@ contract Encoding {
     function combineStrings() public pure returns (string memory) {
         return string(abi.encodePacked("Hi Mom! ", "Miss you."));
     }
+
+    //with 0.8.12 we can now do string.concat(string1, string2)
 
     // When we send a transaction, it is "compiled" down to bytecode and sent in a "data" object of the transaction.
     // That data object now governs how future transactions will interact with it.
